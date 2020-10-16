@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: linear-gradient(to bottom, rgb(175, 103, 233) , rgb(101, 101, 231));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container {
+    width: 70%;
+    height: 80%;
+    margin: 5% auto;
+    background-color: white;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.container-img {
+    border-radius: 20px 0 0 20px;
+    background-image: url(/src/images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 200% 200%;
+    background-position: -550px -300px;
+    position: relative;
+}
+.overflow {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.woman-img {
+    position: absolute;
+    margin: 60px -70px;
+}
+.box-img {
+    position: absolute;
+    margin: 200px -92px;
+}
+.container-faq {
+    background-color: green;
+    border-radius: 0 20px 20px 0;
+}
